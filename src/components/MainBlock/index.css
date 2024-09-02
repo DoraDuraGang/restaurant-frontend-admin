@@ -1,0 +1,19 @@
+.ViewMain {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 70%; /* Занимает 70% ширины */
+    background-color: bisque; /* Цвет фона для основного блока */
+    padding: 20px; /* Отступы внутри блока */
+    box-sizing: border-box; /* Чтобы padding учитывался в ширине блока */
+
+}
+.MainNameCalendar{
+    color: black;
+}
+.Miu{
+    display: flex;
+    justify-content: center;
+}

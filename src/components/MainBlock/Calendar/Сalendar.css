@@ -1,0 +1,49 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0 20px;
+  color: #000000;
+}
+
+.days-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.day {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.empty {
+  width: 40px;
+  height: 40px;
+}
+
+.past {
+  background-color: #c24545; 
+}
+
+.today {
+  background-color: #4bd94b; 
+}
+
+.future {
+  background-color: bisque;
+}

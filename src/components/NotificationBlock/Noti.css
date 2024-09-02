@@ -1,0 +1,10 @@
+.ViewNoti {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 16px ;
+    gap: 15px;
+    width: 30%; /* Занимает 30% ширины */
+    background-color: #fb9b00; /* Цвет фона для блока уведомлений */
+    padding: 20px; /* Отступы внутри блока */
+    box-sizing: border-box; /* Чтобы padding учитывался в ширине блока */
+}
