@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import './Сalendar.css';
 
+// TODO: React.FC можно не указывать, лишнее
 const Calendar: React.FC = () => {
     const [currentDate, setCurrentDate] = useState<Date>(new Date());
 
+    // TODO: можно не оборачивать в функцию, сделать все в верстке
     const handlePrevMonth = () => {
         setCurrentDate((prevDate) => {
             const date = new Date(prevDate);
@@ -12,6 +14,7 @@ const Calendar: React.FC = () => {
         });
     };
 
+    // TODO: можно не оборачивать в функцию, сделать все в верстке
     const handleNextMonth = () => {
         setCurrentDate((prevDate) => {
             const date = new Date(prevDate);
@@ -20,6 +23,8 @@ const Calendar: React.FC = () => {
         });
     };
 
+
+    // TODO: расскажи в голосовом как работает
     const renderDaysInMonth = () => {
         const year = currentDate.getFullYear();
         const month = currentDate.getMonth();
@@ -37,7 +42,8 @@ const Calendar: React.FC = () => {
         for (let day = 1; day <= daysInMonth; day++) {
             const date = new Date(year, month, day);
             date.setHours(0, 0, 0, 0); // Убираем время для четкого сравнения
-            
+
+            // TODO: Если можно переделать в const
             let className = 'day';
 
             if (date < today) {
@@ -48,7 +54,7 @@ const Calendar: React.FC = () => {
                 className += ' future'; // для будущих дней
             }
 
-            // Логирование для отладки
+            // TODO: Не оставляй консоль логи в коммите
             console.log(`Date: ${date.toDateString()}, Class: ${className}`);
 
             days.push(
@@ -66,6 +72,9 @@ const Calendar: React.FC = () => {
             <div className="header">
                 <button onClick={handlePrevMonth}>Previous</button>
                 <h2>
+                    {/*
+                        TODO: как будто можно вынести в переменную
+                    */ }
                     {currentDate.toLocaleString('default', {
                         month: 'long',
                     })}{" "}

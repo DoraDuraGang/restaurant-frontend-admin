@@ -12,11 +12,13 @@
 }
 .message {
     font-size: 14px;
+    /* TODO: перебивает, странная задача марджинов*/
     margin: 0;
     margin-left: 5%;
 }
 .order {
     font-size: 10px;
+    /* TODO: перебивает, странная задача марджинов*/
     margin: 0;
     margin-left: 5%;
 }
