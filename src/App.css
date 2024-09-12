@@ -1,6 +1,6 @@
 .UserView {
-  display: flex; /* Используем флекс для размещения блоков в ряд */
-  height: 100vh; /* Занимаем всю высоту окна клиента */
+  display: flex; 
+  height: 100vh; 
   width: 100vw;
-  background-color: #de591c; /* Цвет фона для визуализации */
+  background-color: #de591c; 
 }
