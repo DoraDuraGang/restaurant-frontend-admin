@@ -1,5 +1,6 @@
 import "./Noti.css"
 import NotiElements from "./elements/NotiElements/NotiElements";
+
 const NotificationBlock = () => {
     return (
         <div className="ViewNoti">
