@@ -38,11 +38,11 @@
 }
 
 .past {
-  background-color: #c24545; 
+  background-color: #c24545;
 }
 
 .today {
-  background-color: #4bd94b; 
+  background-color: #4bd94b;
 }
 
 .future {
@@ -52,4 +52,3 @@
 .day:hover {
   background-color: rgba(255, 255, 255, 0.5); /* Эффект наведения */
 }
-

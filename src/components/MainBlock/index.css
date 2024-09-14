@@ -1,19 +1,18 @@
 .ViewMain {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    width: 70%; 
-    background-color: bisque; 
-    padding: 20px; 
-    box-sizing: border-box; 
-
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  width: 70%;
+  background-color: bisque;
+  padding: 20px;
+  box-sizing: border-box;
 }
-.MainNameCalendar{
-    color: black;
+.MainNameCalendar {
+  color: black;
 }
-.Miu{
-    display: flex;
-    justify-content: center;
+.Miu {
+  display: flex;
+  justify-content: center;
 }
