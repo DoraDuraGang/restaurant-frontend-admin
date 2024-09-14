@@ -29,6 +29,7 @@
   justify-content: center;
   border: 1px solid #000000;
   color: #000000;
+  transition: background-color 0.3s ease; /* Переходы для цвета */
 }
 
 .empty {
@@ -37,13 +38,17 @@
 }
 
 .past {
-  background-color: #c24545; 
+  background-color: #c24545;
 }
 
 .today {
-  background-color: #4bd94b; 
+  background-color: #4bd94b;
 }
 
 .future {
   background-color: bisque;
+}
+
+.day:hover {
+  background-color: rgba(255, 255, 255, 0.5); /* Эффект наведения */
 }
