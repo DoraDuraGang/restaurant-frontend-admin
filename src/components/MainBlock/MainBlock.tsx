@@ -7,10 +7,7 @@ const MainBlock = () => {
         <div className="Miu">  
           <h1 className='MainNameCalendar'> Wалендарик </h1>  
         </div>  
-        <Calendar  
-          onPrevMonth={() => {}}  
-          onNextMonth={() => {}}  
-        />  
+        <Calendar/>  
       </div>  
     );  
 };  
