@@ -10,9 +10,7 @@ const Toast = ({ type, visible, onClick, message }: Props) => {
     if (!visible) return null;  
 
     const handleClose = () => {  
-        if (onClick) { 
-            onClick();  
-        }  
+        onClick();
     };  
 
     return (  
