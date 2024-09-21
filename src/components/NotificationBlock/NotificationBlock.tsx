@@ -1,9 +1,6 @@
 import "./Noti.css";
 import NotiElements from "./elements/NotiElements/NotiElements";
-import BadToast from "./toast/BadToast/BadToast";
-import GoodToast from "./toast/GoodToast/Toast";
-import WarningToast from "./toast/WarningToast/Warningtoast";
-import InfoToast from "./toast/InfoToast/InfoToast";
+import Toast from "./toast/GoodToast/Toast";
 
 const NotificationBlock = () => {
  return (
@@ -15,12 +12,12 @@ const NotificationBlock = () => {
    </div>
 
    <div className="Toasts">
-            <BadToast />
-            <GoodToast />
-            <WarningToast />
-            <InfoToast />
+            <Toast type = "success" visible = {true}  onClick = {() => console.log("1")} message = "пиво"/>
+            <Toast type = "error" visible = {true}  onClick = {() => console.log("1")} message = "пиво"/>
+            <Toast type = "info" visible = {true}  onClick = {() => console.log("1")} message = "пиво"/>
+            <Toast type = "warning" visible = {true}  onClick = {() => console.log("1")} message = "пиво"/>
    </div>
-   
+
   </div>
  );
 };
