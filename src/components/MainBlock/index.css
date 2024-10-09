@@ -3,7 +3,8 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: center;
+  align-items:center;
+  justify-content: space-between;
   width: 70%;
   background-color: bisque;
   padding: 20px;
@@ -15,4 +16,5 @@
 .Miu {
   display: flex;
   justify-content: center;
+  
 }

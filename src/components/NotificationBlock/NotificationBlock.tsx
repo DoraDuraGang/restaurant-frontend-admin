@@ -6,7 +6,7 @@ const NotificationBlock = () => {
  return (
   <div className="ViewNoti">
 
-   <div className="Order">
+   <div className="ROrder">
     <NotiElements />
     <NotiElements />
    </div>
