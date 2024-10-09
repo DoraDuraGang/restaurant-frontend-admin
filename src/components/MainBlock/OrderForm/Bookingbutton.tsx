@@ -7,7 +7,7 @@ interface Props {
 const BookingButton = ({ onClick }: Props) => {
  
     return (
-        <button className="booking-button" onClick={onClick}>
+        <button className="BookingButton" onClick={onClick}>
             Создать быструю бронь
         </button>
     );

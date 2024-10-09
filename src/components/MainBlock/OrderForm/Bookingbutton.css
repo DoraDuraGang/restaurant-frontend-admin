@@ -1,5 +1,5 @@
 
-.booking-button {
+.BookingButton {
   width: 200px;            
   height: 100px;         
   background-color: transparent;
@@ -10,7 +10,7 @@
   transition: background-color 0.3s, color 0.3s; 
 }
 
-.booking-button:hover {
+.BookingButton:hover {
   background-color: #2196F3; 
   color: white;              
 }
