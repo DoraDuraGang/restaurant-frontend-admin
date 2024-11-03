@@ -1,0 +1,30 @@
+
+.BookingButton {
+  background-color: transparent;
+  border: 2px solid #2196F3; 
+  color: #2196F3;        
+  font-size: 16px;        
+  cursor: pointer;       
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.BookingButton:hover {
+  background-color: #2196F3; 
+  color: white;              
+}
+
+.SmallBut
+{
+  width: 100px;            
+  height: 50px;         
+}
+.MedBut
+{
+  width: 200px;            
+  height: 100px;         
+}
+.LarBut
+{
+  width: 300px;            
+  height: 200px;         
+}

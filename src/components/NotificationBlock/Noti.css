@@ -9,7 +9,7 @@
   padding: 20px;
   box-sizing: border-box;
 }
-.Order {
+.ROrder {
   display: flex;
   flex-direction: column;
   gap: 15px;
