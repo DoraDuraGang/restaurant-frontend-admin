@@ -1,14 +1,17 @@
 import './Bookingbutton.css'; 
 
 interface Props {
-    onClick: () => void; 
+    HandleClick: () => void;
+    text: string;
+    Size: 'Smallbut' | 'MedBut' | 'LarBut';
 }
 
-const BookingButton = ({ onClick }: Props) => {
- 
+const BookingButton = ({HandleClick , text, Size }: Props) => {
+
+
     return (
-        <button className="BookingButton" onClick={onClick}>
-            Создать быструю бронь
+        <button className = {`BookingButton ${Size}`} onClick={HandleClick} >
+         {text}
         </button>
     );
 };
