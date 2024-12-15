@@ -10,7 +10,6 @@ function App() {
    <MainBlock />
    <NotificationBlock />
   </section>
-   
  );
 }
 
