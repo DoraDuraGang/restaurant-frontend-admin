@@ -1,4 +1,4 @@
-import '../Toast.css';  
+import './Toast.css';  
 interface Props {
  type: "error" | "success" |"warning" | "info" ;
  visible : boolean;
