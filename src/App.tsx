@@ -6,12 +6,10 @@ import mockData from "./MokDate/mockData"
  
 function App() {
  return (
-    
   <section className="UserView">
    <MainBlock />
    <NotificationBlock />
   </section>
-   
  );
 }
 
