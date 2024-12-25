@@ -1,0 +1,17 @@
+
+.mock-data-container {
+  background-color: #711010;
+  border-radius: 10px; 
+  padding: 20px; 
+  margin: 20px 0; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.mock-data-item {
+  border-bottom: 1px solid #ddd; 
+  padding: 10px 0; 
+}
+
+.mock-data-item:last-child {
+  border-bottom: none; 
+}
